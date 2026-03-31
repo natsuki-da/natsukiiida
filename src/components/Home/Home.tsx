@@ -9,7 +9,7 @@ const Home = () => {
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 1 }}>
             <S.Container>
                     <S.Left>
-                        <S.Img src="/images/natsuki.png" alt="profile picture" />
+                        <S.Img src="/natsukiiida/images/natsuki.png" alt="profile picture" />
                         <S.Profile>
                             <S.Name>{Profile.FULLNAME}</S.Name>
                             <S.Occupation>{Profile.OCCUPATION}</S.Occupation>

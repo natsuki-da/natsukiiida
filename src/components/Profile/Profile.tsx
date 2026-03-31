@@ -87,13 +87,13 @@ const Profile = () => {
                 </S.Center>
                 <S.Bottom>
                     <S.BottomLeft>
-                        <Link to={Paths.PROFILE_JP}><S.Icon_language src="../icons/japan.png" /></Link>
-                        <Link to={Paths.PROFILE_SE}><S.Icon_language src="../icons/sweden.png" /></Link>
-                        <Link to={Paths.PROFILE}><S.Icon_language src="../icons/globe-grid.png" /></Link>
+                        <Link to={Paths.PROFILE_JP}><S.Icon_language src="/natsukiiida/icons/japan.png" /></Link>
+                        <Link to={Paths.PROFILE_SE}><S.Icon_language src="/natsukiiida/icons/sweden.png" /></Link>
+                        <Link to={Paths.PROFILE}><S.Icon_language src="/natsukiiida/icons/globe-grid.png" /></Link>
                     </S.BottomLeft>
                     <S.BottomRight>
-                        <a href="https://github.com/natsuki-da?tab=repositories"><S.Icon alt="github-icon" src="../icons/GitHub_Invertocat_White.png" /></a>
-                        <a href="https://www.linkedin.com/public-profile/settings"><S.Icon alt="linkedin-icon" src="../icons/InBug-White.png" /></a>
+                        <a href="https://github.com/natsuki-da?tab=repositories"><S.Icon alt="github-icon" src="/natsukiiida/icons/GitHub_Invertocat_White.png" /></a>
+                        <a href="https://www.linkedin.com/public-profile/settings"><S.Icon alt="linkedin-icon" src="/natsukiiida/icons/InBug-White.png" /></a>
                     </S.BottomRight>
                 </S.Bottom>
             </S.Container>

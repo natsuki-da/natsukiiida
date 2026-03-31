@@ -12,13 +12,13 @@ export default function draw(ctx: CanvasRenderingContext2D,
   ctx.scale(scale, scale);
 
   const dot1 = new Image();
-  dot1.src = "/images/DOT1.png";
+  dot1.src = "/natsukiiida/images/DOT1.png";
 
   const dot2 = new Image();
-  dot2.src = "/images/DOT2.png";
+  dot2.src = "/natsukiiida/images/DOT2.png";
 
   const dot3 = new Image();
-  dot3.src = "/images/DOT3.png";
+  dot3.src = "/natsukiiida/images/DOT3.png";
 
 
   let ball1Y = 0,

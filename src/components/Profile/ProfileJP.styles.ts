@@ -33,6 +33,10 @@ export const Left = styled.div`
   flex: 2;
 `;
 
+export const Logo = styled.div`
+  display: flex;
+`;
+
 export const Title = styled.div`
   font-family: ${Fonts.MontserratAlternates};
   font-size: 2.5rem;

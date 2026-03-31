@@ -10,11 +10,15 @@ const Profile = () => {
             <S.Container>
                 <S.Top>
                     <S.Left>
-                        <Global.Logo>
-                            <div className="dot1" style={{ width: "4rem", height: "4rem" }} />
-                            <div className="dot2" style={{ width: "4rem", height: "4rem" }} />
-                            <div className="dot3" style={{ width: "4rem", height: "4rem" }} />
-                        </Global.Logo>
+                        <S.Logo>
+                            <Link to={Paths.HOME}>
+                                <Global.Logo>
+                                    <div className="dot1" style={{ width: "4rem", height: "4rem" }} />
+                                    <div className="dot2" style={{ width: "4rem", height: "4rem" }} />
+                                    <div className="dot3" style={{ width: "4rem", height: "4rem" }} />
+                                </Global.Logo>
+                            </Link>
+                        </S.Logo>
                         <S.Title>{Nav.PROFILE}</S.Title>
                     </S.Left>
                     <S.Right>

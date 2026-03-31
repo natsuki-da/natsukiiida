@@ -17,20 +17,14 @@ export const Logo = styled.div`
 display: flex;
 .dot1 {
   background: ${Colors.DOT1};
-  width: 7rem;
-  height: 7rem;
   border-radius: 68% 49% 67% 46% / 47% 39% 67% 77%;
 }
 .dot2 {
     background: ${Colors.DOT2};
-    width: 7rem;
-    height: 7rem;
     border-radius:  49% 38% 38% 43% / 57% 54% 71% 45%;
 }
 .dot3 {
     background: ${Colors.DOT3};
-    width: 7rem;
-    height: 7rem;
     border-radius:  23% 77% 70% 30% / 30% 61% 39% 70%;
 }
 `

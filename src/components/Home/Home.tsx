@@ -1,6 +1,5 @@
-import { Glossary, Paths, Profile } from "../../types/enum";
+import { Paths, Profile } from "../../types/enum";
 import * as S from "./Home.styles"
-//import * as Global from "../../global/Global.styles";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 
@@ -9,7 +8,6 @@ const Home = () => {
     return (
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 1 }}>
             <S.Container>
-                <S.Top>
                     <S.Left>
                         <S.Img src="/images/natsuki.png" alt="profile picture" />
                         <S.Profile>
@@ -20,18 +18,11 @@ const Home = () => {
                         </S.Profile>
                     </S.Left>
                     <S.Right>
-                        {/* <Global.Logo>
-                            <div className="dot1" style={{ backgroundColor: "#c8c8c8" }}/>
-                            <div className="dot2" style={{ backgroundColor: "#c8c8c8" }}/>
-                            <div className="dot3" style={{ backgroundColor: "#c8c8c8" }}/>
-                        </Global.Logo> */}
+                        <S.Dot1><S.Button></S.Button></S.Dot1>
+                        {/* <S.Dot1><S.Button><Link to={Paths.PROFILE}>Profile</Link></S.Button></S.Dot1> */}
+                        <S.Dot2><S.Button></S.Button></S.Dot2>
+                        <S.Dot3><S.Button><Link to={Paths.PROFILE}>Profile</Link></S.Button></S.Dot3>
                     </S.Right>
-                </S.Top>
-                <S.Bottom>
-                    <S.BttnContainer>
-                        <S.Button><Link to={Paths.PROFILE} style={{ textDecoration: "none" }}>{Glossary.NEXT}</Link></S.Button>
-                    </S.BttnContainer>
-                </S.Bottom>
             </S.Container>
         </motion.div>
     )

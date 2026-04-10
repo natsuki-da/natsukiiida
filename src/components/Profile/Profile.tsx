@@ -59,17 +59,24 @@ const Profile = () => {
                     <S.Left>
                         <S.Subtitle style={{ fontSize: "1.5rem" }}>{Title.SKILLS}</S.Subtitle>
                         <S.Skills>
+                            Java / Spring Boot / REST-API-design /
+                            Docker / CI/CD / Github Pages / Netlify /
+                            Swagger / H2 Database / Mochito /
                             React.js / Typescript / JavaScript /
                             Redux / Axios / MySQL / Node.js /
-                            Github / Bitbucket /
+                            Github / Bitbucket / Git / 
                             HTML / CSS /styled-components /
-                            Atom / Visual Studio Code /
-                            Figma / Bootstrap
+                            {/* Atom / Visual Studio Code / IntelliJ IDEA /
+                            Figma / Bootstrap */}
                         </S.Skills>
                     </S.Left>
                     <S.Right>
                         <S.Subtitle style={{ fontSize: "1.5rem" }}>{Title.EDUCATION}</S.Subtitle>
                         <S.EducationalBackground>
+                            <S.Education>
+                                <S.Major>Java Developer with a focus on Cloud (Higher Vocational Education)</S.Major>
+                                <S.School>JENSEN (Sweden) | Aug 2025 - Present </S.School>
+                            </S.Education>
                             <S.Education>
                                 <S.Major>Front End Developer (Higher Vocational Education)</S.Major>
                                 <S.School>KYH (Sweden) | Sep 2021 - May 2024</S.School>

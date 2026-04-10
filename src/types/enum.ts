@@ -17,6 +17,7 @@ export enum Profile {
     FULLNAME = "Natsuki Iida",
     NATIONALITY = "Japanese",
     OCCUPATION = "Junior Frontend Developer",
+    STUDENT = "Java Developer Student",
     COUNTRY = "Sweden"
 }
 

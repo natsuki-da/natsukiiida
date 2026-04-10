@@ -3,20 +3,37 @@ import { Colors, Fonts } from "../../global/Global.styles";
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
   display: flex;
+  @media (min-height: 768px){
+    height: 100vh;
+  }
+  @media (max-width: 767px){
+    flex-direction: column;
+    align-itemts: stretch;
+  }
 `;
 
 export const Left = styled.div`
-  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  @media (max-width: 767px){
+    height: auto;
+    min-height: auto;
+    justify-content: flex-start;
+    padding-top: 5rem;
+  }
+  @media (min-width: 768px){
+    flex: 1;
+  }
 `;
 
 export const Img = styled.img`
   width: 20rem;
+  @media (max-width: 767px){
+    width: 60%;
+  }
 `;
 
 export const Profile = styled.div`
@@ -47,10 +64,17 @@ export const Description = styled(Occupation)`
 `;
 
 export const Right = styled.div`
-  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
+   @media (max-width: 767px){
+    height: auto;
+    min-height: auto;
+    padding: 5rem 0;
+  }  
+  @media (min-width: 768px){
+   flex: 1;
+  }
 `;
 
 export const Button = styled.button`
@@ -85,7 +109,7 @@ export const Dot1 = styled.div`
     color: ${Colors.DOT1};
     transition: 0.2s;
   }
-  &: hover a {
+  &:hover a {
   color: #c8c8c8;
   transition: 0.2s;
   }

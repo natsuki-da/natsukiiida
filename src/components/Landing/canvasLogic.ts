@@ -1,6 +1,6 @@
 export default function draw(ctx: CanvasRenderingContext2D, 
   canvas: HTMLCanvasElement) {
-  const size = 900;
+  const size = Math.min(window.innerWidth, 900)
   canvas.style.width = `${size}px`;
   canvas.style.height = `${size}px`;
 
@@ -44,9 +44,9 @@ export default function draw(ctx: CanvasRenderingContext2D,
     lastTime = timestamp;
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-    ctx.drawImage(dot1, 250, ball1Y, 100, 100);
-    ctx.drawImage(dot2, 700, ball2Y, 40, 40);
-    ctx.drawImage(dot3, 780, ball3Y, 60, 60);
+    ctx.drawImage(dot1, size*0.3, ball1Y, 100, 100);
+    ctx.drawImage(dot2, size*0.7, ball2Y, 40, 40);
+    ctx.drawImage(dot3, size*0.85, ball3Y, 60, 60);
 
     // ball1V += ballG * ballT;
     // ball1Y += ball1V * ballT;

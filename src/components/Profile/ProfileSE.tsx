@@ -59,20 +59,27 @@ const ProfileSE = () => {
                     <S.Left>
                         <S.Subtitle style={{ fontSize: "1.5rem" }}>{Title.SKILLS_SE}</S.Subtitle>
                         <S.Skills>
+                            Java / Spring Boot / REST-API-design /
+                            Docker / CI/CD / Github Pages / Netlify /
+                            Swagger / H2 Database / Mochito /
                             React.js / Typescript / JavaScript /
                             Redux / Axios / MySQL / Node.js /
-                            Github / Bitbucket /
+                            Github / Bitbucket / Git /
                             HTML / CSS /styled-components /
-                            Atom / Visual Studio Code /
-                            Figma / Bootstrap
+                            {/* Atom / Visual Studio Code / IntelliJ IDEA /
+                                                   Figma / Bootstrap */}
                         </S.Skills>
                     </S.Left>
                     <S.Right>
                         <S.Subtitle style={{ fontSize: "1.5rem" }}>{Title.EDUCATION_SE}</S.Subtitle>
                         <S.EducationalBackground>
                             <S.Education>
+                                <S.Major>Javautvecklare med molninriktning (Yrkeshögskoleutbildning)</S.Major>
+                                <S.School>JENSEN (Sverige) | augusti 2025 - pågående </S.School>
+                            </S.Education>
+                            <S.Education>
                                 <S.Major>Front End Developer (Yrkeshögskoleutbildning)</S.Major>
-                                <S.School>KYH (Sweden) | september 2021 - maj 2024</S.School>
+                                <S.School>KYH (Sverige) | september 2021 - maj 2024</S.School>
                             </S.Education>
                             <S.Education>
                                 <S.Major>International Business College of Business Administration</S.Major>

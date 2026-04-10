@@ -27,4 +27,10 @@ export const LandingTitle = styled.div`
   letter-spacing: 1rem;
   color: #808080;
   position: absolute;
+  @media (max-width: 1024px){
+    font-size: 4rem;
+  }
+  @media (max-width: 768px){
+    font-size: 3rem;
+  }
 `

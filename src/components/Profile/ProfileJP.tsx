@@ -55,12 +55,15 @@ const ProfileJP = () => {
                     <S.Left>
                         <S.Subtitle>{Title.SKILLS_JP}</S.Subtitle>
                         <S.Skills>
+                            Java / Spring Boot / REST-API-design /
+                            Docker / CI/CD / Github Pages / Netlify /
+                            Swagger / H2 Database / Mochito /
                             React.js / Typescript / JavaScript /
                             Redux / Axios / MySQL / Node.js /
-                            Github / Bitbucket /
+                            Github / Bitbucket / Git /
                             HTML / CSS /styled-components /
-                            Atom / Visual Studio Code /
-                            Figma / Bootstrap
+                            {/* Atom / Visual Studio Code / IntelliJ IDEA /
+                                                   Figma / Bootstrap */}
                         </S.Skills>
                     </S.Left>
                     <S.Right>
@@ -77,6 +80,10 @@ const ProfileJP = () => {
                             <S.Education>
                                 <S.School>KYH （スウェーデン） | 2021年9月入学 - 2024年6月卒業</S.School>
                                 <S.Major>フロントエンド・デベロッパー（職業大学）</S.Major>
+                            </S.Education>
+                            <S.Education>
+                                <S.School>JENSEN （スウェーデン） | 2025年8月入学 - 2027年6月卒業見込</S.School>
+                                <S.Major>Java開発（クラウド特化） （職業大学）</S.Major>
                             </S.Education>
                         </S.EducationalBackground>
                     </S.Right>

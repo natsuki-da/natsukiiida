@@ -12,7 +12,8 @@ const Home = () => {
                         <S.Img src="/natsukiiida/images/natsuki.png" alt="profile picture" />
                         <S.Profile>
                             <S.Name>{Profile.FULLNAME}</S.Name>
-                            <S.Occupation>{Profile.OCCUPATION}</S.Occupation>
+                            <S.Occupation>{Profile.STUDENT}</S.Occupation>
+                            {/* <S.Occupation>{Profile.OCCUPATION}</S.Occupation> */}
                             <S.Nationality>{Profile.NATIONALITY}</S.Nationality>
                             <S.Description>Based in {Profile.COUNTRY}</S.Description>
                         </S.Profile>
